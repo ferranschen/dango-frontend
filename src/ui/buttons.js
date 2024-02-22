@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Typography } from '@material-tailwind/react'
-export function AddFileButton() {
+export function AddFileButton({ onClick }) {
     return (
       <div>
         <Button
@@ -13,6 +13,7 @@ export function AddFileButton() {
                   border
                   border-gray-300
                   my-2"
+          onClick={onClick}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -61,7 +61,7 @@ export default function ReactFlowWrapper() {
 
   return (
     <div
-      style={{ width: '100%', height: '85%' }}
+      style={{ width: '100%', height: '80%' }}
       className="border-solid border rounded-lg"
     >
       <ReactFlow

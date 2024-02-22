@@ -11,6 +11,11 @@ registerAllModules();
 const HandsontableInstance = React.memo(({ filename }) => {
     const data = [
         ['', 'Ford', 'Volvo', 'Toyota', 'Honda', 'Mazda', 'Ford', 'Volvo', 'Toyota', 'Honda', 'Mazda', 'Ford', 'Volvo', 'Toyota', 'Honda', 'Mazda'],
+        ['2018', 10, 11, 12, 13, 15, 10, 11, 12, 13, 15, 1, 2, 3, 4, 5],
+        ['2019', 10, 11, 12, 13, 15, 10, 11, 12, 13, 15, 1, 2, 3, 4, 5],
+        ['2020', 10, 11, 12, 13, 15, 10, 11, 12, 13, 15, 1, 2, 3, 4, 5],
+        ['2021', 10, 11, 12, 13, 15, 10, 11, 12, 13, 15, 1, 2, 3, 4, 5],
+        ['2010', 10, 11, 12, 13, 15, 10, 11, 12, 13, 15, 1, 2, 3, 4, 5],
         ['2016', 10, 11, 12, 13, 15, 10, 11, 12, 13, 15, 1, 2, 3, 4, 5],
         ['2017', 10, 11, 12, 13, 15, 10, 11, 12, 13, 15, 1, 2, 3, 4, 5],
         ['2018', 10, 11, 12, 13, 15, 10, 11, 12, 13, 15, 1, 2, 3, 4, 5],
@@ -45,7 +50,7 @@ const HandsontableInstance = React.memo(({ filename }) => {
               colHeaders={true}
               rowHeaders={true}
               contextMenu={true}
-              height={300}
+              height={500}
               width="100%"
               licenseKey="non-commercial-and-evaluation"
               

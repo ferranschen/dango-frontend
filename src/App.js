@@ -11,20 +11,20 @@ export default function App() {
     <>
       <TopNav />
 
-      <div className="w-full p-2 h-screen">
-        <div className="flex flex-row space-x-2 h-3/6 justify-center">
-          <Provanance />
-
+      <div className='flex flex-row w-full p-2 h-screen  justify-center space-x-2'>
+        <div className='w-3/5 h-full '>
           <TableView />
         </div>
-        <div>
-          <hr className="my-2" />
+        <div className='w-2/5 h-full overflow-y-scroll space-y-2'>
+          <div className='flex flex-col  h-1/2'>
+            <Provanance />  
+          </div>
+          <div className='flex flex-col  h-1/2 '>
+            <AutomationSection />
+          </div>
+
         </div>
-        <div className="flex flex-row space-x-2 h-3/6 mb-4 justify-center">
-          <ChatRoom />
-          {/* <Clarification /> */}
-          <AutomationSection />
-        </div>
+
       </div>
     </>
   )
