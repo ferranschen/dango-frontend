@@ -17,7 +17,7 @@ export default function TableView() {
   };
 
   return (
-    <div className="w-full h-full bg-white p-4 rounded-lg shadow-lg hover:border-2 hover:border-gray-200 overflow-y-scroll flex justify-between space-x-2">
+    <div className=" w-full h-full bg-white p-4 rounded-lg shadow-sm hover:border-2 hover:border-gray-200 overflow-y-scroll flex justify-between space-x-2 border">
       <div className="flex flex-col h-full overflow-x-scroll">
        
         <SectionTitle title="Table View" />
