@@ -8,7 +8,6 @@ import ReactFlow, {
   ControlButton,
 } from 'reactflow'
 import CustomNode from 'ui/interaction/Provanance/CustomNode'
-import { UploadFileButton } from 'ui/buttons'
 import { Tooltip } from '@material-tailwind/react'
 
 const nodeTypes = {
@@ -61,7 +60,7 @@ export default function ReactFlowWrapper() {
 
   return (
     <div
-      style={{ width: '100%', height: '80%' }}
+      style={{ width: '100%', height: '95%' }}
       className="border-solid border rounded-lg"
     >
       <ReactFlow
@@ -101,7 +100,6 @@ export default function ReactFlowWrapper() {
         </Controls>
         <Background color="#aaa" gap={16} />
       </ReactFlow>
-      <UploadFileButton />
     </div>
   )
 }

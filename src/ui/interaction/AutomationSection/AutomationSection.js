@@ -1,7 +1,8 @@
 import React from 'react';
 import AutomationList from 'ui/interaction/AutomationSection/AutomationList';
 import {SectionTitle} from 'ui/titles';
-import { SaveProgramButton, ShowHistoryButton } from 'ui/buttons'
+import { SaveProgramButton, AskAIButton } from 'ui/buttons'
+import PopoverWrapper from 'ui/interaction/AutomationSection/PopoverWrapper';
 
 export default function AutomationSection() {
   return (
@@ -10,7 +11,6 @@ export default function AutomationSection() {
       <AutomationList />
       <div className="mt-2 flex flex-row gap-2">
         <SaveProgramButton />
-        <ShowHistoryButton />
       </div>
     </div>
   )

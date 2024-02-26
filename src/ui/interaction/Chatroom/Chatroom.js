@@ -84,7 +84,7 @@ export default function ChatRoom() {
   }, [isLoading])
 
   return (
-    <div className="w-full bg-white p-4 rounded-lg shadow-md overflow-y-scroll hover:border-2 hover:border-gray-200">
+    <div className="w-full h-full bg-white p-4 rounded-lg shadow-md overflow-y-scroll hover:border-2 hover:border-gray-200">
       <SectionTitle title="ChatRoom" />
       <div className="flex antialiased text-gray-800">
         <div className="flex-row h-full w-full ">
