@@ -11,7 +11,7 @@ export default function AutomationList() {
         <Option>Automation 2</Option>
       </Select>
     </div>
-    <div className="flex flex-col space-y-4 p-6  border overflow-x-scroll text-gray-800 mt-2">
+    <div className="flex flex-col space-y-4 p-6  border overflow-x-scroll text-gray-800 mt-2 max-h-full">
           <ol className="list-decimal space-y-2 p-2">
             <li className="hover:rounded-md hover:shadow-lg hover:border hover:cursor-default p-2">
               Extract{' '}
@@ -66,7 +66,9 @@ export default function AutomationList() {
                 <span className="mr-1">output1.csv</span>
               </span>
             </li>
-            <StatementListItem />
+          <StatementListItem />
+          
+
           </ol>
         </div>
     </div>
