@@ -6,7 +6,7 @@ import PopoverWrapper from 'ui/interaction/AutomationSection/PopoverWrapper';
 
 export default function AutomationSection() {
   return (
-    <div className="w-full h-full bg-white p-4 rounded-lg shadow-sm hover:border-2 hover:border-gray-200 overflow-y-scroll border">
+    <div className="w-full h-full bg-white p-4 rounded-lg shadow-sm overflow-y-scroll border">
       <SectionTitle title="Automation List" />
       <AutomationList />
       <div className="mt-2 flex flex-row gap-2">

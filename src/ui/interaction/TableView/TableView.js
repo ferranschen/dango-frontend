@@ -18,12 +18,11 @@ export default function TableView() {
   };
 
   return (
-    <div className=" w-full h-full bg-white p-4 rounded-lg shadow-sm hover:border-2 hover:border-gray-200 overflow-y-scroll flex justify-between space-x-2 border">
+    <div className=" w-full h-full bg-white p-4 rounded-lg shadow-sm overflow-y-scroll flex justify-between space-x-2 border">
       <div className="flex flex-col h-full overflow-x-scroll">
-       
         <SectionTitle title="Table View" />
-        <UnderlineTabs />
-        <div className="border my-4 border-gray-200 rounded-lg p-2 h-5/6 relative">
+        <UnderlineTabs className="h-1/6" />
+        <div className="border my-4 border-gray-200 rounded-lg p-2 h-[500px] relative">
           <HandsontableInstance filename="input1.csv" />
           {isRecording ? (
             <span class="inline-flex items-center rounded-md bg-pink-50 px-2 py-1 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10 animate-pulse absolute right-4 top-4 transition duration-300">

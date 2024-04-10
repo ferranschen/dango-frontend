@@ -5,7 +5,7 @@ import QuestionList from 'ui/interaction/QuestionList'
 import { SectionTitle } from 'ui/titles';
 export default function Clarification() {
     return (
-        <div className=" bg-white p-4 rounded-lg shadow-lg hover:border-2 hover:border-gray-200 overflow-y-scroll">
+        <div className=" bg-white p-4 rounded-lg shadow-lg  overflow-y-scroll">
             <SectionTitle title="Clarification Questions" />
             <div className="w-full mx-auto">
                 <div className="p-4 border border-gray-300 sm:rounded-md">
